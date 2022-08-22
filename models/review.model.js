@@ -22,7 +22,7 @@ const reviewSchema = new mongoose.Schema(
         required:true
     },
     description:{
-        type:string,
+        type:String,
         requiered:true
     },
     isReviewHelpful:{
